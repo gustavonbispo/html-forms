@@ -8,14 +8,33 @@
 </head>
 
 <body>
-  <form>
-    <input type="text" name="nome">
 
+  <form>
+    <!-- Entrada -->
+    <h1>Entrada</h1>
+    <input type="text" name="nome" value="Valor fixo">
+
+    <input type="text" value="Auto-Foco" autofocus>
+
+    <input type="text" value="Somente leitura" readonly>
+
+    <input type="text" value="Desabilitado" disabled>
+    
+    <input type="text" value="Obrigatório" required>
+
+    <input type="text" value="Tamanho mínimo" minlength="5">
+
+    <input type="text" value="Tamanho máximo" maxlength="5">
+
+    <input type="text" placeholder="Digite aqui">
+
+    <h1>Botões</h1>
     <!-- Botões -->
-    <button type="submit" name="botao1" value="valor_do_botao" >Enviar</button>
+
+    <button type="submit" name="botao1" value="valor_do_botao">Enviar</button>
     <button type="reset">Limpar</button>
     <button type="button">Ação</button>
-    
+
     <button autofocus>Auto-Foco</button>
     <button disabled>Desabilitado</button>
   </form>
